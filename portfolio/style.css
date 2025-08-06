@@ -54,6 +54,7 @@ a{
 }
 .homeinfo h1{
     font-size: 55px;
+    color: #21bbf8ab;
 }
 .homeinfo h2 {
     font-size: 32px;
@@ -74,6 +75,8 @@ a{
 
 }
 .homeinfo p {
+    display: flex;
+    justify-content: flex-start;
     font-size: 16px;
     margin: 10px 0 25px;
 }
@@ -93,6 +96,11 @@ a{
     color: black;
     font-weight: 600;
     transition: .5s;
+}
+.nextline{
+    display: flex;
+    flex-direction: column;
+
 }
 .btn:hover{
     background-color:transparent ;
@@ -142,5 +150,40 @@ a{
     display: block;
     width: 85%;
     object-fit: cover;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 150px;
+    width: 100%;
+    padding:60px 9% 0;
+    color: white;
+}
+.about .aboutinfo h1 {
+    font-size: 45px;
+    color: #21bbf8ab;
+}
+.about .aboutinfo p {
+    font-size: 18px;
+    display: contents;
+    justify-content: flex-start;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 200px;
+    width: 100%;
+    padding:60px 9% 0;
+    color: white;
+}
+.skills .skillsinfo h1 {
+    font-size: 45px;
+    color: #21bbf8ab;
+}
+.skillsimg{
+    height: 2px;
+    width: 5px;
 }
 
